@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang = "hu">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <Title>NJK</Title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <a class="navbar-brand" href="#"><img src="img/njk-high-resolution-logo-black-transparent.png" class="navImg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-center-text">
+                Neumann János Középiskola
+              </div>              
+          <ul class="navbar-nav ml-auto navbarLi">
+            <li class="nav-item active">
+              <a class="nav-link navLink" href="index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link navLink" href="pages/hirek.html">Hírek</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link navLink" href="pages/kapcsolat.html">Kapcsolat</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link navLink dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Információ
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item navLink" href="pages/kepzeseink.html">Képzéseink</a>
+                <a class="dropdown-item navLink" href="pages/felvetelizoknek.html">Felvételizőknek</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+      <div class="belebeg">
+        <div id="home">
+          <div class="landing-szoveg">
+            
+            <h1>Neumann János Középiskola</h1>
+            <h3>Kilinccsel előre</h3>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid ">
+        <div class="container">
+          <div class="row align-items-center justify-content-center" >
+            <div class="col-md-2">
+              <img src="img/800px-JohnvonNeumann-LosAlamos.jpg" class="img-fluid rounded" alt="Neumann János portréja" >
+            </div>
+            <div class="col-md-1">
+                <div class="vertical-line"></div>
+              </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="larger-text">
+                <p>"Ha valaki nem hiszi, hogy a matematika egyszerű, az azért van, mert még nem jött rá, hogy milyen bonyolult az élet."</p>
+                <p>- Neumann János</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid atfedesszin2">
+        <div class="container">
+          <div class="row align-items-center justify-content-center" >
+            <div class="col-md-5">
+              <h1><strong>Miért vagyunk mi a jó döntés?</strong></h1>
+            </div>
+            <div class="col-md-1">
+                <div class="vertical-line"></div>
+              </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="larger-text">
+                <p>Válassza iskolánkat, ahol a modern oktatási módszerek és a hagyományok tökéletes harmóniája várja a diákokat. Itt nem csak a tudást, hanem a jövőbeni sikerhez szükséges készségeket és értékeket is átadjuk. Kiváló tanári gárda, széleskörű extrakurrikuláris tevékenységek és egy inspiráló környezet biztosítja, hogy minden diák elérhesse a maga csúcsát. Fedezze fel, hogyan segíthetünk Önnek vagy gyermekének kiteljesíteni a rejtett potenciálját a mi közösségünkben!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container hirekContainer">
+        <div class="text-center">
+          <a name="cikkek"></a>
+      <h1 class="cikkCim">Aktuális Cikkeink</h1>
+      </div>
+          <div class="row justify-content-md-around justify-content-sm-center align-items-start">
+              <div class="col-lg-4 col-md-6 col-sm-12 hirekCol">
+                  <div class="card hirekCard h-100">
+                      <img src="img/FAITH-classroom-teacher.webp" class="card-img-top hirekKepek" alt="...">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">A jövő fejlesztése</h5>
+                        <p class="card-text">A  legújabb oktatási programunk bevezetésével, amely a mesterséges... </p>
+                        <div class="text-center mt-auto">
+                        <a type="button" class=" align-self-end btn  tovabbiCikkekGomb " href="pages/hirek.html">Tovább...</a>
+                      </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 hirekCol">
+                  <div class="card hirekCard h-100">
+                      <img src="img/peter_UKdf0qz.jpg" class="card-img-top hirekKepek" alt="...">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Siker a tudományos versenyen</h5>
+                        <p class="card-text">Büszkén jelentjük be, hogy iskolánk diákjai első helyezést értek...</p>
+                        <div class="text-center mt-auto">
+                          <a type="button" class="align-self-end btn  tovabbiCikkekGomb " href="pages/hirek.html">Tovább...</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 hirekCol">
+                  <div class="card hirekCard h-100">
+                      <img src="img/scholarship.jpg" class="card-img-top hirekKepek" alt="...">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Előkelő ösztöndíj</h5>
+                        <p class="card-text">Egy jelentős nemzetközi alapítvány jelentős ösztöndíjprogramot indított a tehetséges, de... </p>
+                        <div class="text-center mt-auto">
+                          <a type="button" class="align-self-end btn  tovabbiCikkekGomb " href="pages/hirek.html">Tovább...</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              
+          </div>
+      </div>
+      
+      <div class="container-fluid atfedesszin1">
+        <div class="container">
+          <h1 class="indexcim1">Képzéseink<br></h1>
+          <div class="row justify-content-center">
+              <div class="col-lg-3 col-sm-12">
+                  <div class="keptarto">
+                  <img src="img/Programming_code.jpg" alt="férfi" class="honapDolgozoja egyseges-kepmeret kontenerhez-illeszkedo-kep">
+                  <div class="overlay">
+                      <div class="text">Informatika</div>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="keptarto">
+                <img src="img/mathematics.jpg" alt="férfi" class="honapDolgozoja egyseges-kepmeret kontenerhez-illeszkedo-kep">
+                <div class="overlay">
+                    <div class="text">matematika</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+              <div class="keptarto">
+              <img src="img/imgonline-com-ua-resize-QOMfl0qsvb.jpg" alt="férfi" class="honapDolgozoja egyseges-kepmeret kontenerhez-illeszkedo-kep" >
+              <div class="overlay">
+                  <div class="text">Közgazdaság</div>
+              </div>
+          </div>
+          </div>
+              <div class="col-lg-3 col-sm-12">
+                  <div class="keptarto">
+                  <img src="img/Accountant-Hero-1.jpg" alt="nő" class="honapDolgozoja egyseges-kepmeret kontenerhez-illeszkedo-kep">
+                  <div class="overlay">
+                      <div class="text">Pénzügy</div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="indexcim3">Partnereink</h2>
+        <div class="row align-items-center">
+            <!-- Kép, ami csak nagy képernyőn látszik -->
+            <div class="col-lg-2 d-none d-lg-block">
+                <img src="img/Képernyőkép 2023-11-19 125155.png" alt="Kép" class="img-fluid">
+            </div>
+    
+            <!-- Logók -->
+            <div class="col-lg-10">
+                <div class="row">
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <img src="img/kuldetesunk.85bf412c.png" alt="Logo 1" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <img src="img/unnamed.jpg" alt="Logo 2" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <img src="img/PMKIK_logo_teljes_nagy_02.png" alt="Logo 3" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <img src="img/ec39d4cacc9afd0a87844795ffb13a798b1a7623_fhd_1920_w7h6.jpg" alt="Logo 4" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <img src="img/banner.jpg" alt="Logo 5" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!-- FOOTER -->
+    <footer class="container-fluid text-center">
+        
+            </div>
+            <div class="container  text-center text-md-left mt-5">
+            <div class="row justify-content-center mt-3">
+            <div class="col-md-4 col-sm-12 mx-auto mb-4">
+                <img src="img/njk-high-resolution-logo-black-transparent-2.png" class="img-fluid">
+                
+
+            </div>
+            
+            <div class="col-md-4 col-sm-12 mx-auto mb-4 r">
+                <h6 class="text-uppercase font-weight-bold cimFooter">Neumann János Középiskola</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto alahuzas cimalahuzas" >
+                <p>1061, Budapest, Nemerleke utca 22.<br></p>
+                
+            </div>
+            <div class="col-md-4 col-sm-12 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold cimFooter">Kapcsolat</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto alahuzas cimalahuzas" >
+
+                <p><strong>Telefon:</strong> +36 42 145 6578<br></p>
+                <p><strong>E-mail:</strong> kapcsolat@njk.hu<br></p>
+                <p><strong>OM azonosító:</strong> 203047/007<br></p>
+                <p><strong>Felnőttképzési nyilvántartás száma:</strong> B/2029/000930<br></p>
+            </div>
+        </div>
+        </div>
+        <hr class="alahuzas">
+        
+        <div class="row justify-content-center">
+            <span class="copyright">© NJK</span>
+        </div>
+    </footer>
+</body>
+</html>
